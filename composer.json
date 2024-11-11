@@ -2,6 +2,7 @@
     "name": "cmatosbc/oopress-menus",
     "description": "Menus OOP structures and better iterators.",
     "type": "library",
+    "license": "gpl-3.0-or-later",
     "require": {
         "psr/simple-cache": "^3.0"
     },
