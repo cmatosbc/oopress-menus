@@ -1,0 +1,19 @@
+{
+    "name": "cmatosbc/oopress-menus",
+    "description": "Menus OOP structures and better iterators.",
+    "type": "library",
+    "require": {
+        "psr/simple-cache": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Carlos MAtos",
+            "email": "carlosarturmatos1977@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oopress\\": "src/"
+        }
+    }
+}
