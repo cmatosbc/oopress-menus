@@ -115,8 +115,11 @@ class Fetcher {
      */
     public function render($templateName)
     {
-        // Pass menu items to the template part
-        set_query_var('menuItems', $this->items);
-        get_template_part($templateName);
+        get_template_part(
+            slug: $templateName,
+            args: [
+                'data' => $this->getItems()
+            ]
+        );
     }
 }
