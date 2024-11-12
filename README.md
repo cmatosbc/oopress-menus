@@ -11,6 +11,6 @@ Usage is pretty simple. You need to instantiate the class with the menu ID or sl
 ```php
 // Create the instance for "menu-1" menu
 $menuData = (new \Oopress\Menus\Fetcher('testing'))
-            ->fetch() // Fetches menu items data
-            ->getItems(true); // Returns the data in JSON (or array if not TRUE)
+            ->fetch()
+            ->getItems(true); // Fetches menu data and returns the data in JSON (or array if not TRUE)
 ```
